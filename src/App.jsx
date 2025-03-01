@@ -7,7 +7,7 @@ const App = () => {
 
   const getFact = async (e, type) => {
     e.preventDefault();
-    const API = `https://numbersapi.com/${number}/${type}?default= ${number} is a boring number.`;
+    const API = `http://numbersapi.com/${number}/${type}?default= ${number} is a boring number.`;
     try {
       const res = await axios.get(API);
       setFact(res.data);
