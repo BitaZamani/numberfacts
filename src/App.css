@@ -1,0 +1,48 @@
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info-section {
+  display: grid;
+  grid-template-rows: 1fr 40px 40px 2fr;
+  height: 400px;
+  width: 410px;
+  background-color: #99a6ff;
+  justify-items: center; 
+  align-items: center;
+}
+.number-input {
+  outline: none;
+  border: 1px solid rgb(13, 9, 55);
+  border-radius: 5px;
+  padding: 7px;
+  width: 300px;
+  grid-row: 2;
+}
+.number-input:focus {
+  box-shadow: rgb(13, 9, 55) 0 0 3px;
+}
+.type-section {
+  display: flex;
+  margin: 5px;
+  grid-row: 3;
+}
+
+.type-button {
+  padding: 5px 20px;
+  background: rgb(63, 54, 237);
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+.fact-section {
+  grid-row: 4;
+  width: 300px;
+  line-height: 1.5;
+}
+.title {
+  grid-row: 1;
+}
